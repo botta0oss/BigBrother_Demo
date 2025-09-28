@@ -1,5 +1,5 @@
 {
-    "nome_chat": "Test", 
+    "nome_chat": "Bullismo", 
     "sentiment_csv": "data/Bullismo/analisi/sentiment.csv", 
     "parole_csv": "data/Bullismo/analisi/top_parole.csv",
      "parole_utenti_csv": "data/Bullismo/analisi/top_parole_per_utente.csv", 
