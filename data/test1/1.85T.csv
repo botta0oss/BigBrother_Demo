@@ -1,0 +1,126 @@
+message_id,message,etichetta,sender_id,nome,cognome,nome_vero,date,media,risposta
+1,"Ciao a tutti! Siete pronti per ricominciare la scuola? Io NO 😫",['Neutral'],1000000002,Matt_King,Bianchi,Matteo,2024-09-02T09:00:00+00:00,,
+2,"Ciao Matteo! Io non vedo l'ora di rivedervi tutti, ma i compiti estivi... un incubo! 📚",['Positive'],1000000005,Chia_Valley,Gialli,Chiara,2024-09-02T09:05:39+00:00,,1
+3,"Mah, un po' sì, almeno usciamo di casa. Ma odio il latino nuovo, sarà difficile. 😔",['Neutral'],1000000007,Dav_Tech,Blu,Davide,2024-09-02T09:16:32+00:00,,1
+4,"Anch'io non vedo l'ora, soprattutto per raccontarci tutto! 😍 E per la ginnastica! 👯‍♀️",['Positive'],1000000006,Fra_Dancer,Marrone,Francesca,2024-09-02T10:07:05+00:00,,1
+5,"Latino? Ma chi ci pensa. Meglio tornare ai videogiochi con voi. Chi c'è stasera? 🎮",['Neutral'],1000000004,Simo_Rap,Neri,Simone,2024-09-02T12:00:26+00:00,,
+6,"Ciao ragazzi, anch'io. Spero solo che questo sia un anno tranquillo per tutti. 🙏",['Neutral'],1000000001,LucaM,Rossi,Luca,2024-09-02T12:08:42+00:00,,1
+7,"Tranquillo per chi, Luca? 😂 Dovresti darci meno pensieri, a noi sì. 😉",['Neutral'],1000000003,Gabe_7,Verdi,Gabriele,2024-09-02T12:20:46+00:00,,6
+8,"Dai Gabri! Siamo tutti agitati. Ma domani inizia geografia, spero che la prof non dia subito compiti assurdi. 🌍",['Positive'],1000000005,Chia_Valley,Gialli,Chiara,2024-09-02T13:21:05+00:00,,7
+9,"Geografia è facile. L'importante è che la prof di matematica non ci torturi subito con verifiche. 😠",['Neutral'],1000000002,Matt_King,Bianchi,Matteo,2024-09-02T14:50:52+00:00,,
+10,"Vero! La prof di matematica fa sempre terrore. Io studio da ore per non fare figuracce.",['Neutral'],1000000006,Fra_Dancer,Marrone,Francesca,2024-09-02T14:58:39+00:00,,9
+11,"A me piace matematica, se avete bisogno di una mano forse vi posso aiutare?",['Positive'],1000000001,LucaM,Rossi,Luca,2024-09-02T15:10:04+00:00,,9
+12,"AHAHAH Luca ci aiuta? Se ci spieghi tu allora siamo fritti sul serio! 🤦‍♂️",['Negative'],1000000004,Simo_Rap,Neri,Simone,2024-09-02T15:15:33+00:00,,11
+13,"Già, Luca è bravo ma un po' lentino a spiegare, ciao ciao tempo libero.",['Negative'],1000000003,Gabe_7,Verdi,Gabriele,2024-09-02T15:32:00+00:00,,11
+14,"Non è vero, Luca è molto chiaro quando spiega! 😊 Non è giusto dire così.",['Positive'],1000000005,Chia_Valley,Gialli,Chiara,2024-09-02T15:47:05+00:00,,13
+15,"Concordo con Chiara, i suoi appunti l'anno scorso mi hanno salvata più di una volta! ✨",['Positive'],1000000006,Fra_Dancer,Marrone,Francesca,2024-09-02T16:10:11+00:00,,14
+16,"Comunque, c'è la partita stasera. Milan contro Inter. Chi guarda? ⚽",['Neutral'],1000000007,Dav_Tech,Blu,Davide,2024-09-02T16:35:48+00:00,,
+17,"Certo, forza Juve! Ah no... ops. 😜 Sempre peggio l'Inter.",['Positive'],1000000002,Matt_King,Bianchi,Matteo,2024-09-02T16:47:50+00:00,,16
+18,"Per fortuna a me il calcio non interessa! Oggi lezione di danza finita tardi, sono esausta.",['Neutral'],1000000006,Fra_Dancer,Marrone,Francesca,2024-09-02T18:05:00+00:00,,
+19,"Dobbiamo studiare storia, c'è la verifica a breve. Qualcuno ha capito le invasioni barbariche? Io no.",['Neutral'],1000000003,Gabe_7,Verdi,Gabriele,2024-09-03T09:30:15+00:00,,
+20,"Anche io sono in crisi per storia. È tanta roba! 😩",['Negative'],1000000004,Simo_Rap,Neri,Simone,2024-09-03T09:45:00+00:00,,19
+21,"Forse potremmo ripassare in videochiamata stasera? Se a tutti va bene, potrei riassumere i punti principali.",['Positive'],1000000001,LucaM,Rossi,Luca,2024-09-03T10:00:20+00:00,,20
+22,"In videochiamata? Con Luca? Mi addormento in 5 minuti. Scherzi?",['Negative'],1000000002,Matt_King,Bianchi,Matteo,2024-09-03T10:15:30+00:00,,21
+23,"Luca è un po' pesante quando parla di studio. Potremmo farlo ma con un powerpoint, tipo, per velocizzare?",['Neutral'],1000000003,Gabe_7,Verdi,Gabriele,2024-09-03T10:30:10+00:00,,22
+24,"Dai ragazzi, un ripasso è un ripasso. Luca è sempre preparato, almeno proviamoci! 😉",['Positive'],1000000005,Chia_Valley,Gialli,Chiara,2024-09-03T10:45:00+00:00,,23
+25,"A me l'idea piace. Purché si finisca in tempi umani! 🤣",['Positive'],1000000006,Fra_Dancer,Marrone,Francesca,2024-09-03T11:00:00+00:00,,24
+26,"Potrei fare uno schema riassuntivo con le date principali e gli eventi. Cerco di renderlo rapido.",['Positive'],1000000001,LucaM,Rossi,Luca,2024-09-03T11:15:00+00:00,,25
+27,"Ottima idea Luca! 😊 Ti va bene se ti mando qualche domanda che mi sono appuntato?",['Positive'],1000000005,Chia_Valley,Gialli,Chiara,2024-09-03T11:30:00+00:00,,26
+28,"Anche io ti mando due cose Luca, grazie!",['Positive'],1000000006,Fra_Dancer,Marrone,Francesca,2024-09-03T11:45:00+00:00,,27
+29,"Sì certo, mandate pure! Così faccio uno schema più completo.📚",['Positive'],1000000001,LucaM,Rossi,Luca,2024-09-03T12:00:00+00:00,,
+30,"Siete i soliti rammolliti che si fanno aiutare da Luca. Io faccio da me.",['Neutral'],1000000002,Matt_King,Bianchi,Matteo,2024-09-03T13:00:00+00:00,,29
+31,"E poi magari Luca non ha neanche tempo. Che si mette a disegnare lui... 🎨",['Negative'],1000000004,Simo_Rap,Neri,Simone,2024-09-03T13:15:00+00:00,,30
+32,"Beh, anche se disegna è bravo. Smettetela di criticarlo per qualsiasi cosa! 🙄",['Negative'],1000000005,Chia_Valley,Gialli,Chiara,2024-09-03T13:30:00+00:00,,31
+33,"A me sta bene il riassunto di Luca. Quando lo invii Luca?",['Neutral'],1000000007,Dav_Tech,Blu,Davide,2024-09-03T14:00:00+00:00,,29
+34,"Lo mando dopo cena, così ho tempo per finirlo. Ci sentiamo stasera!👋",['Positive'],1000000001,LucaM,Rossi,Luca,2024-09-03T14:15:00+00:00,,33
+35,"Oggi ho mangiato una pizza strepitosa. Che fate di bello stasera? 🍕",['Positive'],1000000006,Fra_Dancer,Marrone,Francesca,2024-09-03T19:00:00+00:00,,
+36,"Gioco a FIFA con Simo. Vinciamo facile. 🏆",['Positive'],1000000002,Matt_King,Bianchi,Matteo,2024-09-03T19:15:00+00:00,,35
+37,"Io guardo una serie tv. Qualcuno ha consigli per serie su adolescenti? 📺",['Neutral'],1000000003,Gabe_7,Verdi,Gabriele,2024-09-03T19:30:00+00:00,,35
+38,"Consiglio The Umbrella Academy, è fantastico! Anche Luca ci fa i fumetti ispirati, è troppo bravo! 😄",['Positive'],1000000005,Chia_Valley,Gialli,Chiara,2024-09-03T19:45:00+00:00,,37
+39,"No grazie Chiara. Eviterei di vederla insieme a Luca... con le sue spiegazioni.",['Negative'],1000000002,Matt_King,Bianchi,Matteo,2024-09-03T20:00:00+00:00,,38
+40,"L'ho guardata l'anno scorso, è molto bella. Consigliata! 🍿",['Positive'],1000000001,LucaM,Rossi,Luca,2024-09-03T20:15:00+00:00,,37
+41,"Qualcuno ha capito gli esercizi di scienze per domani? Io no. 😵‍💫",['Negative'],1000000002,Matt_King,Bianchi,Matteo,2024-10-03T15:00:00+00:00,,
+42,"Io li ho fatti, potrei mandare un riassunto veloce se volete, ma sono un po' difficili da scrivere. 🤔",['Neutral'],1000000001,LucaM,Rossi,Luca,2024-10-03T15:18:22+00:00,,41
+43,"Un riassunto di Luca? Sarà un trattato da 10 pagine. Finisce domani sera e ancora non abbiamo finito di leggerlo. 📖",['Negative'],1000000004,Simo_Rap,Neri,Simone,2024-10-03T15:23:43+00:00,,42
+44,"Meglio che cerchiamo su Google, facciamo prima. O magari chiediamo a Francesca. Lei capisce le cose veloci.",['Negative'],1000000003,Gabe_7,Verdi,Gabriele,2024-10-03T15:40:48+00:00,,42
+45,"Ma che dici Gabriele? Non dire fesserie. Luca è sempre molto chiaro! Forse potreste ascoltare bene la maestra. 🤦‍♀️",['Positive'],1000000005,Chia_Valley,Gialli,Chiara,2024-10-03T15:53:22+00:00,,44
+46,"Già, a me servirebbe proprio un aiuto. Non ci capisco niente della fotosintesi, per favore Luca! 🌳",['Neutral'],1000000006,Fra_Dancer,Marrone,Francesca,2024-10-03T16:05:07+00:00,,45
+47,"Va bene Fra, magari cerchiamo noi. Non voglio perdermi un'ora di spiegone con tutti gli alberi e fiori. 🙄",['Negative'],1000000002,Matt_King,Bianchi,Matteo,2024-10-03T16:15:31+00:00,,46
+48,"Comunque ragazzi, ho trovato un video carino su YouTube che spiega tutto bene, sembra veloce. Mando il link. 📲",['Neutral'],1000000007,Dav_Tech,Blu,Davide,2024-10-03T16:55:04+00:00,,
+49,"Ok, grazie Davide. Se serve altro comunque, io resto disponibile. 👋",['Neutral'],1000000001,LucaM,Rossi,Luca,2024-10-03T17:09:44+00:00,,48
+50,"Nah, tranquillo Luca. Non c'è bisogno del tuo sapere enciclopedico 😂 A volte meglio sintetico che troppo. ",['Negative'],1000000004,Simo_Rap,Neri,Simone,2024-10-03T17:28:43+00:00,,49
+51,"Simo, non è carino. Non è vero che è sempre troppo. Ogni persona ha il suo modo di esprimersi, se non ti piace ignora. 😤",['Negative'],1000000005,Chia_Valley,Gialli,Chiara,2024-10-03T17:41:09+00:00,,50
+52,"Ma dai Chia, si scherza! Luca lo sa. È il nostro cervellone slow-motion, non te la prendere. 😉",['Negative'],1000000002,Matt_King,Bianchi,Matteo,2024-10-03T18:03:00+00:00,,51
+53,"...",['Neutral'],1000000001,LucaM,Rossi,Luca,2024-10-03T18:13:38+00:00,,52
+54,"Che c'è di nuovo sul feed? Visti gli ultimi reel di ballo? Sono wow! 💃",['Positive'],1000000006,Fra_Dancer,Marrone,Francesca,2024-10-03T19:50:31+00:00,,
+55,"Ho installato un nuovo videogioco spaziale, qualcuno vuole provarlo con me?",['Positive'],1000000007,Dav_Tech,Blu,Davide,2024-10-03T20:00:27+00:00,,
+56,"Siamo a novembre, le giornate sono cortissime. Non ho voglia di fare niente. 😴",['Negative'],1000000002,Matt_King,Bianchi,Matteo,2024-11-05T10:00:00+00:00,,
+57,"Sì, è vero. Dobbiamo fare il lavoro di gruppo su Verga per italiano. Che palle però. 🙄",['Neutral'],1000000004,Simo_Rap,Neri,Simone,2024-11-05T10:13:48+00:00,,56
+58,"A me è toccata la parte sul 'Verismo'. Roba noiosissima, non capisco nulla. 😫",['Neutral'],1000000003,Gabe_7,Verdi,Gabriele,2024-11-05T10:25:00+00:00,,57
+59,"Potremmo dividere i capitoli o i temi e poi riassumerli insieme. Posso occuparmi del 'Ciclo dei Vinti' e delle tematiche principali, se volete. 🧐",['Positive'],1000000001,LucaM,Rossi,Luca,2024-11-05T10:35:10+00:00,,58
+60,"Luca, ma ti pare? Se dobbiamo aspettare il tuo riassunto il prof ci uccide. Sei lento un macello a scrivere, c'è un limite alla pazienza! ⏳",['Negative'],1000000003,Gabe_7,Verdi,Gabriele,2024-11-05T10:49:57+00:00,,59
+61,"Già, Luca non serve a niente nei compiti che richiedono velocità. Meglio che ci dia solo le fotocopie. 😂 Facciamo noi la parte intelligente. 😉",['Very Negative'],1000000002,Matt_King,Bianchi,Matteo,2024-11-05T11:00:30+00:00,,60
+62,"Matteo, non dire così! Luca è molto preciso e ci aiuta sempre. I suoi riassunti sono fatti benissimo, siete solo invidiosi. 😡",['Positive'],1000000005,Chia_Valley,Gialli,Chiara,2024-11-05T11:15:22+00:00,,61
+63,"Chiara, non fare l'avvocato difensore per un'ameba. Non ha la connessione al cervello turbo come noi, lasciagli la fotocopiatrice.",['Negative'],1000000004,Simo_Rap,Neri,Simone,2024-11-05T11:27:00+00:00,,62
+64,"Posso provare ad essere più veloce... non volevo creare problemi. Scusate.",['Negative'],1000000001,LucaM,Rossi,Luca,2024-11-05T11:39:55+00:00,,63
+65,"Nessun problema Luca, non ascoltarli. Fai con calma. 😊",['Positive'],1000000005,Chia_Valley,Gialli,Chiara,2024-11-05T11:55:00+00:00,,64
+66,"Ho visto un paio di scarpe nuove da comprare, stupende! Chi le ha viste? ✨",['Positive'],1000000006,Fra_Dancer,Marrone,Francesca,2024-11-05T12:00:00+00:00,,
+67,"Raga, ho visto l'ultimo aggiornamento di Rocket League, ci sono nuove auto! 🚗🚀",['Positive'],1000000007,Dav_Tech,Blu,Davide,2024-11-05T12:35:48+00:00,,
+68,"Fregatene Luca. Era solo una battuta. Ma il ciclo dei Vinti è la cosa più deprimente della letteratura, lasciala stare. Cerca un altro argomento se non vuoi annoiarci. 💀",['Negative'],1000000002,Matt_King,Bianchi,Matteo,2024-11-05T13:28:01+00:00,,64
+69,"Non è una bella battuta, Matteo. Potreste essere più gentili. Non costa nulla. 😠",['Negative'],1000000005,Chia_Valley,Gialli,Chiara,2024-11-05T13:42:07+00:00,,68
+70,"Non le ho viste, Fra! Mandi foto? 😍",['Positive'],1000000003,Gabe_7,Verdi,Gabriele,2024-11-05T14:10:00+00:00,,66
+71,"Ho bisogno di un aiuto con le equazioni, c'è qualcuno bravo oltre a Luca? 🙏",['Neutral'],1000000006,Fra_Dancer,Marrone,Francesca,2024-11-05T14:40:00+00:00,,
+72,"Sono a tua disposizione, se vuoi provare a risolvere qualche problema in chat. 🤓",['Positive'],1000000001,LucaM,Rossi,Luca,2024-11-05T14:55:00+00:00,,71
+73,"Luca ha ragione Fra. È il più bravo della classe. 😉",['Positive'],1000000005,Chia_Valley,Gialli,Chiara,2024-11-05T15:05:00+00:00,,72
+74,"E vabbè. Tanto noi dobbiamo giocare. 🎮",['Neutral'],1000000004,Simo_Rap,Neri,Simone,2024-11-05T15:20:00+00:00,,73
+75,"Che giornata di freddo pazzesca! Mi sa che quest'anno nevica tantissimo. ❄️",['Neutral'],1000000006,Fra_Dancer,Marrone,Francesca,2024-12-01T13:30:00+00:00,,
+76,"Raga, abbiamo le prove per lo spettacolo di Natale dopo la ricreazione! Chi ha la parte di narratore o solista? 🎄",['Positive'],1000000005,Chia_Valley,Gialli,Chiara,2024-12-01T14:00:00+00:00,,
+77,"Mi hanno dato una parte per leggere una poesia. Sono un po' agitato. 😥",['Neutral'],1000000001,LucaM,Rossi,Luca,2024-12-01T14:15:39+00:00,,76
+78,"TU? La poesia? Non vedo l'ora di addormentarmi e di ronfare tutta la serata! 😂😴",['Negative'],1000000002,Matt_King,Bianchi,Matteo,2024-12-01T14:26:01+00:00,,77
+79,"Speriamo la Leggi in fretta Luca, altrimenti arriviamo a Pasqua a sentire le tue parole. Non farci venire la carie per la noia! 👵👴",['Very Negative'],1000000004,Simo_Rap,Neri,Simone,2024-12-01T14:40:08+00:00,,78
+80,"Già, ti ricordo l'anno scorso quando ti sei bloccato a recitare e hai fatto scena muta... è stato imbarazzante per tutti! 🤐",['Negative'],1000000003,Gabe_7,Verdi,Gabriele,2024-12-01T15:02:49+00:00,,79
+81,"Smettetela subito! Luca legge molto bene e si è impegnato tantissimo! Fate voi se siete tanto bravi a recitare in pubblico, vediamovi! 😠",['Very Negative'],1000000005,Chia_Valley,Gialli,Chiara,2024-12-01T15:20:00+00:00,,80
+82,"Mio fratello mi ha invitato a vedere un film di fantascienza, qualcuno l'ha visto? 👽",['Neutral'],1000000007,Dav_Tech,Blu,Davide,2024-12-01T15:45:10+00:00,,
+83,"Comunque le luci per il palco sono carine, spero ci siano tanti glitter per dare più brio allo spettacolo! ✨",['Positive'],1000000006,Fra_Dancer,Marrone,Francesca,2024-12-01T16:15:32+00:00,,
+84,"Dai Luca non pensarci, sarà un successo! La tua voce è particolare! ",['Positive'],1000000005,Chia_Valley,Gialli,Chiara,2024-12-01T17:00:00+00:00,,81
+85,"Farò del mio meglio... spero solo di non deludervi o fare brutte figure. 🥺",['Neutral'],1000000001,LucaM,Rossi,Luca,2024-12-01T17:42:30+00:00,,84
+86,"Il tuo meglio? 😂 Fai solo non farci fare figuracce, siamo mica tutti degli attori. Sai cosa intendo.",['Negative'],1000000002,Matt_King,Bianchi,Matteo,2024-12-01T17:58:19+00:00,,85
+87,"Non gli mettete pressione! Non siete simpatici così. È un nostro compagno di classe e merita rispetto! 😤",['Negative'],1000000005,Chia_Valley,Gialli,Chiara,2024-12-01T18:14:52+00:00,,86
+88,"Sì vabbè Chiara, chillati. È solo una recita scolastica, che dramma. Non siamo a teatro per premi Oscar. 🎭",['Neutral'],1000000004,Simo_Rap,Neri,Simone,2024-12-01T18:31:07+00:00,,87
+89,"Io sto già preparando il regalo per la prof di italiano, voi cosa fate? 🎁",['Neutral'],1000000006,Fra_Dancer,Marrone,Francesca,2024-12-01T19:00:00+00:00,,
+90,"Penso a fare un gioco nuovo per pc... 💻",['Neutral'],1000000007,Dav_Tech,Blu,Davide,2024-12-01T20:10:00+00:00,,
+91,"A gennaio si ricomincia la scuola. Mamma mia che ansia per la verifica di inglese! 😩",['Negative'],1000000006,Fra_Dancer,Marrone,Francesca,2025-01-08T10:00:00+00:00,,
+92,"Ragazzi, per favore. Dobbiamo aiutare Luca con la sua ricerca di storia, non prenderlo in giro per il carattere, ok? Si è offerto lui di aiutarci. 🤝",['Negative'],1000000005,Chia_Valley,Gialli,Chiara,2025-01-08T11:00:00+00:00,,
+93,"Grazie Chiara, ma non preoccuparti. Ci penso io. Non voglio disturbare nessuno. 🙏",['Neutral'],1000000001,LucaM,Rossi,Luca,2025-01-08T11:15:33+00:00,,92
+94,"Ma figurati! La ricerca la fa da solo. Non ha bisogno di un'infermiera personale. Forse dovrebbe farsene una privata.",['Negative'],1000000002,Matt_King,Bianchi,Matteo,2025-01-08T11:29:41+00:00,,93
+95,"O di una traduttrice per capire cosa dice, che parla troppo strano, quasi si mangia le parole.",['Negative'],1000000003,Gabe_7,Verdi,Gabriele,2025-01-08T11:42:06+00:00,,94
+96,"QUESTO NON È NORMALE! Perchè dovete trattarlo così? Smettetela! Non è amicizia, siete cattivi! Non vi rendete conto di quanto male state facendo con queste frasi? 😠😠😠",['Very Negative'],1000000005,Chia_Valley,Gialli,Chiara,2025-01-08T11:58:34+00:00,,95
+97,"Wow, Chiara arrabbiata. Si vede che Luca ti ha promesso un fumetto e non vuole fare brutta figura con la fan n.1. 😒",['Negative'],1000000004,Simo_Rap,Neri,Simone,2025-01-08T12:12:05+00:00,,96
+98,"Ma perché sempre io? Cosa vi ho fatto? Voglio solo essere vostro amico. 😢",['Negative'],1000000001,LucaM,Rossi,Luca,2025-01-08T12:28:18+00:00,,97
+99,"Lasciate stare Luca. E lasciate stare anche me.",['Very Negative'],1000000005,Chia_Valley,Gialli,Chiara,2025-01-08T12:45:00+00:00,,98
+100,"Chi è che vuole la figurina rara di Pokémon per il mio album?",['Neutral'],1000000007,Dav_Tech,Blu,Davide,2025-01-08T13:45:00+00:00,,
+101,"Io non so nulla di Pokémon Davide. 😫",['Negative'],1000000006,Fra_Dancer,Marrone,Francesca,2025-01-08T13:58:32+00:00,,100
+102,"Tranquillo Luca, sei simpatico anche quando piangi 😂 Così la smetti di parlare di compiti.",['Very Negative'],1000000002,Matt_King,Bianchi,Matteo,2025-01-08T14:30:17+00:00,,98
+103,"Siete ridicoli, non so cosa dirvi più. Siete patetici e cattivi.",['Very Negative'],1000000005,Chia_Valley,Gialli,Chiara,2025-01-08T14:45:21+00:00,,102
+104,"Basta. Non voglio più parlarne e non voglio più rispondere a voi. Non è un gruppo di amici questo. 😭",['Negative'],1000000001,LucaM,Rossi,Luca,2025-01-08T15:00:58+00:00,,103
+105,"Luca è tornato al suo silenzio sepulcrale, così si può dire.",['Negative'],1000000004,Simo_Rap,Neri,Simone,2025-01-08T15:15:30+00:00,,104
+106,"Oggi ho mangiato i biscottoni della nonna. Voi li avete provati quelli col ripieno di marmellata? 😍",['Positive'],1000000006,Fra_Dancer,Marrone,Francesca,2025-01-08T16:00:00+00:00,,
+107,"Buoni! Ma Luca non può mangiarli se no non riesce più a disegnare!",['Negative'],1000000002,Matt_King,Bianchi,Matteo,2025-01-08T16:15:00+00:00,,106
+108,"Hey Luca, ho saputo che al cambio d'ora ti hanno messo da solo. Meno male, non devi appestare il banco di qualcuno con la tua noia. 😷",['Very Negative'],1000000002,Matt_King,Bianchi,Matteo,2025-02-04T16:00:00+00:00,,
+109,"Già, e l'odore della matita bruciata ti accompagnerà, disegnatore di fumetti sfigato e isolato. Goditela la solitudine. ✏️",['Very Negative'],1000000004,Simo_Rap,Neri,Simone,2025-02-04T16:05:44+00:00,,108
+110,"Fai pure le tue cose da nerd sfigato. Nessuno ti vuole intorno. Ahahah Sei proprio un solitario. 🤣🤣🤣",['Very Negative'],1000000003,Gabe_7,Verdi,Gabriele,2025-02-04T16:18:22+00:00,,109
+111,"...",['Very Negative'],1000000001,LucaM,Rossi,Luca,2025-02-04T16:25:39+00:00,,110
+112,"NO, NO E POI NO! Questa non è amicizia. Non sono messaggi. Siete cattivi, dovete smetterla! Non vi rendete conto di quanto male state facendo a una persona? Siete orribili. 😡",['Very Negative'],1000000005,Chia_Valley,Gialli,Chiara,2025-02-04T16:35:10+00:00,,110
+113,"Ragazzi... forse state esagerando un po' troppo, non è più divertente questo modo di fare. Non mi piace. 😔",['Negative'],1000000006,Fra_Dancer,Marrone,Francesca,2025-02-04T16:47:05+00:00,,110
+114,"Sì, non mi sembra giusto per niente. Far stare male per delle parole è una cosa davvero schifosa. Basta. 🛑",['Negative'],1000000007,Dav_Tech,Blu,Davide,2025-02-04T17:02:18+00:00,,113
+115,"Ma cosa c'entra adesso Fra e Davide? Vi siete rammolliti pure voi a furia di difendere questo qua? 🤔",['Negative'],1000000002,Matt_King,Bianchi,Matteo,2025-02-04T17:15:58+00:00,,114
+116,"Sì, adesso vi alleate con il secchione e la crocerossina? Che pagliacciata, fate un club di sfigati. 😂",['Very Negative'],1000000004,Simo_Rap,Neri,Simone,2025-02-04T17:28:30+00:00,,115
+117,"Non ti permettere, Simone! Non vi è concesso! Questo si chiama rispetto. Cosa che a voi manca totalmente e che non imparerete mai, siete vuoti. 😠",['Very Negative'],1000000005,Chia_Valley,Gialli,Chiara,2025-02-04T17:41:09+00:00,,116
+118,"Vado. Non voglio più sentire queste cose. Sto male. 💔",['Very Negative'],1000000001,LucaM,Rossi,Luca,2025-02-04T17:49:11+00:00,,117
+119,"Luca... no, non andare. Non li ascoltare, sono stupidi! 🫂",['Negative'],1000000006,Fra_Dancer,Marrone,Francesca,2025-02-04T17:58:39+00:00,,118
+120,"Matt, Simo, Gabri, questo è troppo. Avete esagerato di brutto e mi fate stare male pure a me. Basta. 😤",['Negative'],1000000007,Dav_Tech,Blu,Davide,2025-02-04T18:13:00+00:00,,116
+121,"Bah, fate come vi pare. A noi non importa. Luca è un perdente. E voi che lo difendete, pure. Siete inutili. 💩",['Very Negative'],1000000002,Matt_King,Bianchi,Matteo,2025-02-04T18:30:17+00:00,,120
+122,"Non capisco perché si debba essere così crudeli, non lo accetto più.",['Negative'],1000000006,Fra_Dancer,Marrone,Francesca,2025-02-04T18:45:00+00:00,,121
+123,"Siamo un gruppo di amici o di persone che si distruggono? Non mi sta bene.",['Negative'],1000000007,Dav_Tech,Blu,Davide,2025-02-04T19:00:00+00:00,,122
+124,"Voi siete patetici. Lasciate perdere.",['Very Negative'],1000000003,Gabe_7,Verdi,Gabriele,2025-02-04T19:15:00+00:00,,123
+125,"Basta chattare in questo gruppo. Voglio stare da sola adesso.",['Very Negative'],1000000005,Chia_Valley,Gialli,Chiara,2025-02-04T19:30:00+00:00,,121

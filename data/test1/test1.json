@@ -1,0 +1,14 @@
+{
+    "nome_chat": "Test", 
+    "sentiment_csv": "data/test1/analisi/sentiment.csv", 
+    "parole_csv": "data/test1/analisi/top_parole.csv",
+     "parole_utenti_csv": "data/test1/analisi/top_parole_per_utente.csv", 
+     "messaggi_utenti_csv": "data/test1/analisi/msg_per_utente.csv", 
+     "date": null, 
+     "sentiment_per_utente_csv": "data/test1/analisi/sentiment_utente.csv", 
+     "emoji_per_utente_csv": "data/test1/analisi/emoji_utente.csv", 
+     "avg_sentiment_per_periodo_csv": "data/test1/analisi/sentiment_temporale.csv", 
+     "polarizzazione": [-0.28, "Neutral"], 
+     "database": "data/test1/analisi/cluster.csv", 
+     "cluster_label_csv": "data/test1/analisi/cluster_label.csv"
+}

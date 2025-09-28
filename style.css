@@ -1,0 +1,142 @@
+/*DISCLAIMER:  file generato da ChatGPT esclusivamente per una visualizzazione della dashboard Streamlit  pulita*/
+
+/* 🌐 Stile generale */
+.stApp {
+    background-color: #f4f6f9;
+    font-family: "Segoe UI", Roboto, sans-serif;
+    color: #1c1c1c;
+    line-height: 1.6;
+}
+
+/* Contenitore principale */
+div.block-container {
+    padding-top: 4rem; 
+    max-width: 1350px;
+    margin: auto;
+}
+
+/* 🎯 Header */
+h1, h2, h3 {
+    color: #002147;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+h1 {
+    font-size: 2.2rem;
+    border-bottom: 2px solid #004080;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    margin-top: 2rem;
+    font-size: 1.6rem;
+}
+
+/* 📊 Metriche */
+[data-testid="stMetric"] {
+    background: #ffffff;
+    border: 1px solid #d9dde5;
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+[data-testid="stMetric"]:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}
+
+/* 🎨 Sidebar */
+[data-testid="stSidebar"] {
+    background: #e9ecef;
+    padding: 1rem;
+    border-right: 1px solid #ccc;
+}
+
+[data-testid="stSidebar"] h1,
+[data-testid="stSidebar"] h2,
+[data-testid="stSidebar"] label {
+    color: #222;
+    font-weight: 500;
+}
+
+/* 🔧 Fix pulsante toggle sidebar */
+[data-testid="stSidebar"] button {
+    color: #333 !important;
+    background-color: #ffffff !important;
+    border: 1px solid #bbb !important;
+    border-radius: 6px !important;
+    transition: background 0.2s, transform 0.2s;
+}
+
+[data-testid="stSidebar"] button:hover {
+    background-color: #f0f0f0 !important;
+    transform: scale(1.05);
+}
+
+/* 🗂️ Tabs */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 20px;
+    border-bottom: 2px solid #d0d0d0;
+    padding-bottom: 0.2rem;
+}
+
+.stTabs [data-baseweb="tab"] {
+    height: 48px;
+    background-color: transparent;
+    border-radius: 6px 6px 0 0;
+    padding: 10px 18px;
+    font-weight: 500;
+    color: #444;
+    transition: background 0.2s, color 0.2s;
+}
+
+.stTabs [data-baseweb="tab"]:hover {
+    background-color: rgba(0, 64, 128, 0.08);
+    color: #002147;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: #ffffff;
+    font-weight: 700;
+    color: #002147;
+    border-bottom: 3px solid #004080;
+}
+
+/* 📋 Tabelle */
+[data-testid="stDataFrame"] {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+}
+
+table {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+thead tr {
+    background-color: #002147 !important;
+    color: #ffffff !important;
+    font-weight: 600;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f0f4f8;
+}
+
+tbody tr:hover {
+    background-color: #e6eef8;
+}
+
+/* 📦 Expander */
+.streamlit-expanderHeader {
+    font-weight: 600;
+    color: #002147;
+}
+
