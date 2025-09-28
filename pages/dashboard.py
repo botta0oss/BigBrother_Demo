@@ -450,7 +450,7 @@ def run_dashboard(paths):
     
 
 
-
+# logica di avvio 
 st.set_page_config(layout="wide", page_title="Dashboard Analisi")
 if 'config_path' not in st.session_state or st.session_state['config_path'] is None:
     st.warning("Per favore, torna alla pagina `Home` e seleziona un'analisi per iniziare.")
@@ -458,49 +458,8 @@ if 'config_path' not in st.session_state or st.session_state['config_path'] is N
 
 config_path_str = st.session_state['config_path']
 config_path = Path(config_path_str)
-
-st.subheader("🔍 Informazioni di Debug")
-st.info(f"Percorso ricevuto dalla Home page: `{config_path}`")
-st.info(f"Directory di lavoro corrente (CWD): `{os.getcwd()}`")
-
-# Costruiamo il percorso assoluto per essere sicuri
-absolute_path = os.path.abspath(config_path)
-st.info(f"Percorso assoluto che si sta tentando di aprire: `{absolute_path}`")
-st.info(f"Il file a questo percorso esiste? -> **{os.path.exists(absolute_path)}**")
-st.info(f"Percorso ricevuto: `{config_path_str}`")
-st.info(f"Percorso assoluto: `{config_path.resolve()}`")
-st.info(f"Il file esiste? -> **{config_path.is_file()}**")
-# --- FINE CODICE DI DEBUG ---
-
-
-try:
-    # Questa parte ora sappiamo che funziona
-    with config_path.open('r', encoding='utf-8') as f:
+with config_path.open('r', encoding='utf-8') as f:
         paths = json.load(f)
-    
-    # ORA, prima di eseguire tutta la dashboard, verifichiamo che i path INTERNI al JSON esistano
-    st.subheader("🔍 Verifica Percorsi Interni al JSON")
-    all_paths_ok = True
-    for key, path_str in paths.items():
-        # Controlliamo solo i percorsi dei file (quelli che finiscono in .csv)
-        if isinstance(path_str, str) and path_str.endswith('.csv'):
-            path_obj = Path(path_str)
-            if path_obj.is_file():
-                st.success(f"✔️ OK: Il file '{key}' esiste al percorso: {path_str}")
-            else:
-                st.error(f"❌ ERRORE: Il file '{key}' NON è stato trovato al percorso: {path_str}")
-                st.info(f"Percorso assoluto cercato: {path_obj.resolve()}")
-                all_paths_ok = False
-    
-    if not all_paths_ok:
-        st.error("Uno o più percorsi dei file CSV definiti nel JSON non sono corretti. Controlla la struttura delle cartelle e i nomi dei file (incluse maiuscole/minuscole).")
-        st.stop() # Ferma l'esecuzione se anche solo un file manca
+        run_dashboard(paths)
 
-    st.success("Tutti i percorsi nel file JSON sono stati verificati con successo. Avvio la dashboard...")
 
-    # Solo ora eseguiamo la dashboard
-    run_dashboard(paths)
-
-except Exception as e:
-    st.error(f"Si è verificato un errore durante l'esecuzione della dashboard.")
-    st.exception(e)
