@@ -1,13 +1,13 @@
 import streamlit as st
 import pandas as pd
-import json, re, os
+import json, re
 import plotly.express as px
 from pathlib import Path
 
 
 
 
-# Funzione per caricare i dati 
+# funzione per caricare i dati 
 @st.cache_data
 def load_csv(path):
     return pd.read_csv(path)

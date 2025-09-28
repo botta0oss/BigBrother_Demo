@@ -1,5 +1,5 @@
 import streamlit as st
-import os, json
+import json
 from pathlib import Path
 
 st.set_page_config(
