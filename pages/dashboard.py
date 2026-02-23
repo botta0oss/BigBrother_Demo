@@ -5,7 +5,7 @@ import plotly.express as px
 from pathlib import Path
 
 
-
+st.set_page_config(layout="wide", page_title="Dashboard Analisi")
 
 # funzione per caricare i dati 
 @st.cache_data
@@ -451,7 +451,6 @@ def run_dashboard(paths):
 
 
 # logica di avvio 
-st.set_page_config(layout="wide", page_title="Dashboard Analisi")
 if 'config_path' not in st.session_state or st.session_state['config_path'] is None:
     st.warning("Per favore, torna alla pagina `Home` e seleziona un'analisi per iniziare.")
     st.stop()
