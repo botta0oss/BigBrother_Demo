@@ -6,6 +6,13 @@ st.set_page_config(
     page_title="Selezione demo",
     layout="centered"
 )
+st.info(
+    """
+    **🇬🇧 English Users:** This demo features a case study on cyberbullism. 
+    While the interface is in Italian, you can use the **Google Translate** extension (or any browser translator) 
+    for full navigation.
+    """
+)
 
 # funzione per trovare il json dei path
 @st.cache_data
