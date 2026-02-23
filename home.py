@@ -8,7 +8,7 @@ st.set_page_config(
 )
 st.info(
     """
-    **🇬🇧 English Users:** This demo features a case study on cyberbullism. 
+    **English Users**: This demo features a case study on cyberbullism. 
     While the interface is in Italian, you can use the **Google Translate** extension (or any browser translator) 
     for full navigation.
     """
