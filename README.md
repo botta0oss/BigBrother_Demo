@@ -1,3 +1,3 @@
 # BigBrother_Demo
-Repository della demo, caricata sul cloud streamlit, del programma BigBrother
-link alla repository: https://github.com/botta0oss/BigBrother.git
+Repository of the demo, uploaded to Streamlit, of the BigBrother programme
+Repository link : https://github.com/botta0oss/BigBrother.git
